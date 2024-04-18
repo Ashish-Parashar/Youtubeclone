@@ -1,0 +1,134 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f0f4f9;
+}
+.navbar{
+    display: flex;
+justify-content: space-between;
+border-bottom: 1px solid rgb(150, 146, 146);
+padding-bottom: 25px;
+padding-top: 15px;
+background-color: white;
+padding-right: 20px;
+padding-left: 15px;
+}
+.first{
+    display: flex;
+}
+.image-1{
+    padding: 0 15px;
+}
+.p-1{
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.p-2{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.learn{
+    border: none;
+    color: #0b57d0;
+    font-size: 15px;
+    background-color: white;
+}
+.Dismiss{
+    color: #0b57d0;
+    font-size: 15px;
+    border: 1px solid black;
+    background-color: #f0f4f9;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 15px;
+}
+.container{ width: 100%;
+    height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.google-box{
+    width: 55%;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+}
+.section-1{
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 50%;
+
+}
+.image-2{
+    padding-bottom: 15px;
+}
+.heading{
+    font-weight: 500;
+    padding-bottom: 15px;
+    font-size: 35px;
+}
+.section-2{
+    width: 50%;
+    padding-top: 100px;
+}
+
+.Email{
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(141, 138, 138);
+    padding-left: 15px;
+    font-size: 16px;
+}
+.forgot{
+    color: #0b57d0;
+    font-size: 14px;
+    padding-top: 15px;
+}
+.not{
+    padding-top: 50px;
+}
+.buttons{
+    padding-top: 50px;
+    text-align: end;
+    padding-right: 35px;
+}
+.next{
+    background-color: #0b57d0;
+    color: white;
+    border: none;
+    padding: 10px 20px ;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.bottom{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.bottom-1{
+    width: 50%;
+}
+#dropdown{
+    border: none;
+    background-color:#f0f4f9;
+    outline: none;
+}
+.bottom-2{
+    width: 50%;
+    text-align: end;
+}
+.end{
+    border: none;
+    background-color:#f0f4f9;
+    padding: 0 20px;
+}

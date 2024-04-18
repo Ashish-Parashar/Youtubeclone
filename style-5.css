@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f0f4f9;
+}
+
+.navbar {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    justify-content: space-between;
+    padding-right: 20px;
+    background-color: white;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(212, 208, 208);
+}
+
+.first {
+    display: flex;
+}
+
+.text {
+    padding-left: 10px;
+}
+
+.goo {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.we {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.learn {
+    background-color: white;
+    color: #0b57d0;
+    border: none;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.dismiss {
+    border: 1px solid black;
+    color: #0b57d0;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.container {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.google-box {
+    width: 55%;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    padding: 20px 10px;
+}
+
+.section-1 {
+    width: 50%;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 15px;
+
+
+}
+
+#dropdown {
+    margin-top: 15px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.section-2 {
+    width: 50%;
+    padding-top: 80px;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 10px 15px;
+    height: 60px;
+    width: 55%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.box-content {
+    display: flex;
+}
+
+.check {
+    width: 30px;
+    height: 30px;
+
+}
+
+.ctpc {
+    font-size: 35px;
+}
+
+.term {
+    border: none;
+    background-color: none;
+    font-size: 8px;
+}
+
+.buttons {
+    padding-top: 100px;
+    text-align: end;
+    padding-right: 20px;
+}
+
+.try {
+    border: none;
+    padding: 10px 15px;
+    background-color: white;
+    color: #0b57d0;
+    font-size: 15px;
+
+}
+
+.Next {
+    background-color: #0b57d0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.last {
+    width: 55%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#dropdown-2{
+    border: none;
+    background-color: #f0f4f9;
+    outline: none;
+    font-size: 12px;
+}
+.help{
+    border: none;
+    padding: 10px 20px;
+    background-color: #f0f4f9;
+    font-size: 12px;
+}
